@@ -8,10 +8,10 @@ import (
 	"os"
 	"os/signal"
 
+	"github.com/artenlf/go-react-app/internal/api"
+	"github.com/artenlf/go-react-app/internal/store/pgstore"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/joho/godotenv"
-	"github.com/rocketseat-education/semana-tech-go-react-server/internal/api"
-	"github.com/rocketseat-education/semana-tech-go-react-server/internal/store/pgstore"
 )
 
 func main() {
